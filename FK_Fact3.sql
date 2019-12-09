@@ -1,0 +1,28 @@
+alter table Accidents_Location_fact
+add constraint fk_Fact3_accident_severity
+foreign key(accident_severity_id) references Accident_Severity(accident_severity_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Carriageway_Hazards
+foreign key(carriageway_hazards_id) references Carriageway_Hazards(carriageway_hazards_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Light_Conditions
+foreign key(light_conditions_id) references Light_Conditions(light_conditions_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Local_Authority_District
+foreign key(local_authority_district_id) references Local_Authority_District(local_authority_district_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Special_Conditions_at_Site
+foreign key(special_conditions_at_site_id) references Special_Conditions_at_Site(special_conditions_at_site_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Area
+foreign key(urban_or_rural_area_id) references Area(urban_or_rural_area_id);
+GO
+alter table Accidents_Location_fact
+add constraint fk_Fact3_Weather_Conditions
+foreign key(weather_conditions_id) references Weather_Conditions(weather_conditions_id);
+GO
