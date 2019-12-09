@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ImportCSVtoSQL", "ImportCSVtoSQL\ImportCSVtoSQL.dtproj", "{7E7D4D4E-C3C8-4D33-B6C0-28A03FD5DB27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7D4D4E-C3C8-4D33-B6C0-28A03FD5DB27}.Development|Default.ActiveCfg = Development
+		{7E7D4D4E-C3C8-4D33-B6C0-28A03FD5DB27}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44B492D0-7E29-4682-A188-F11077ABFA46}
+	EndGlobalSection
+EndGlobal

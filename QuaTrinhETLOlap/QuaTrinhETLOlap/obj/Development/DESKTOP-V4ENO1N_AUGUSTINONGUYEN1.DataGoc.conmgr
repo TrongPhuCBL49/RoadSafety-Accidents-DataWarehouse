@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-V4ENO1N_AUGUSTINONGUYEN1.DataGoc"
+  DTS:DTSID="{D4FEA3A3-25DE-45D8-8FB8-D3191BCCADA9}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-V4ENO1N\AUGUSTINONGUYEN1;Initial Catalog=DataGoc;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

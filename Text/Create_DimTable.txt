@@ -1,0 +1,118 @@
+CREATE TABLE [Police_Force] (
+    [police_force_id] int,
+    [police_force_name] varchar(50),
+primary key([police_force_id] )
+)
+
+CREATE TABLE [Local_Authority_District] (
+    [local_authority_district_id] int,
+    [local_authority_district_name] varchar(50),
+primary key([local_authority_district_id] )
+)
+
+CREATE TABLE [Light_Conditions] (
+    [light_conditions_id] int,
+    [light_conditions_name] varchar(50),
+primary key([light_conditions_id] )
+)
+
+CREATE TABLE [Local_Authority_Highway] (
+    [local_authority_highway_id] int,
+    [local_authority_highway_name] varchar(50),
+primary key([local_authority_highway_id] )
+)
+
+CREATE TABLE [Road_Class] (
+    [road_class_id] int,
+    [road_class_name] varchar(50),
+primary key([road_class_id] )
+)
+
+CREATE TABLE [Weather_Conditions] (
+    [weather_conditions_id] int,
+    [weather_conditions_name] varchar(50),
+primary key([weather_conditions_id] )
+)
+
+CREATE TABLE [Road_Type] (
+    [road_type_id] int,
+    [road_type_name] varchar(50),
+primary key([road_type_id] )
+)
+
+CREATE TABLE [Special_Conditions_at_Site] (
+    [special_conditions_at_site_id] int,
+    [special_conditions_at_site_name] varchar(50),
+primary key([special_conditions_at_site_id] )
+)
+
+CREATE TABLE [Road_Surface_Conditions] (
+    [road_surface_conditions_id] int,
+    [road_surface_conditions_name] varchar(50),
+primary key([road_surface_conditions_id] )
+)
+
+CREATE TABLE [Area] (
+    [urban_or_rural_area_id] int,
+    [urban_or_rural_area_name] varchar(50),
+primary key([urban_or_rural_area_id] )
+)
+
+CREATE TABLE [Carriageway_Hazards] (
+    [carriageway_hazards_id] int,
+    [carriageway_hazards_name] varchar(50),
+primary key([carriageway_hazards_id] )
+)
+
+CREATE TABLE [Accident_Severity] (
+    [accident_severity_id] int,
+    [accident_severity_name] varchar(50),
+primary key([accident_severity_id] )
+)
+
+CREATE TABLE [Speed_Limit] (
+    [speed_limit_id] int,
+    [speed_limit_name] int,
+primary key([speed_limit_id] )
+)
+
+CREATE TABLE [Date] (
+    [date_id] int,
+    [date_value] datetime,
+    [Day] int,
+    [Month] int,
+    [Year] int,
+    [Quarter] int,
+    [Day_of_week] int
+primary key([date_id] )
+)
+
+CREATE TABLE [Date_of_Week] (
+    [date_of_week_id] int,
+    [date_of_week_name] varchar(50)
+primary key([date_of_week_id] )
+)
+
+CREATE TABLE [Fact] (
+    [Accident_Index] int,
+    [Number_of_Vehicles] int,
+    [Number_of_Casualties] int,
+    [speed_limit_id] int,
+    [police_force_id] int,
+    [accident_severity_id] int,
+    [date_id] int,
+    [local_authority_district_id] int,
+    [local_authority_highway_id] int,
+    [road_class_id] int,
+    [light_conditions_id] int,
+    [weather_conditions_id] int,
+    [road_surface_conditions_id] int,
+    [special_conditions_at_site_id] int,
+    [urban_or_rural_area_id] int,
+    [carriageway_hazards_id] int,
+    [time_id] int,
+    [road_type_id] int
+)
+
+delete from Data_Null;
+delete from Data_Clean;
